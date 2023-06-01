@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function find_python_command() {
+find_python_command() {
     if command -v python &> /dev/null
     then
         echo "python"
